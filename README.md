@@ -36,8 +36,30 @@ Finally transfer back to RGB color space.
 Out of range values are clipped. 
 
 ## Sample Test
-Input Image: ![alt text](https://raw.https://github.com/samuel5qqq/-Image-Processing/blob/master/Sample%20Test/fruits.jpg)
+Input Image
+<p align="Left">
+  <img src="https://github.com/samuel5qqq/-Image-Processing/blob/master/Sample%20Test/fruits.jpg" width="200"/>
+</p>
 
+Linear Scaling by specified window(0.3, 0.3), (0.4, 0.4)
+<p align="Left">
+  <img src="https://github.com/samuel5qqq/-Image-Processing/blob/master/Sample%20Test/lsout1.jpg" width="200"/>
+</p>
+
+Linear Scaling by specified window(0.6, 0.6), (0.7, 0.7)
+<p align="Left">
+  <img src="https://github.com/samuel5qqq/-Image-Processing/blob/master/Sample%20Test/lsout2.jpg" width="200"/>
+</p>
+
+Histogram Equalization by specified window(0.3, 0.3), (0.4, 0.4)
+<p align="Left">
+  <img src="https://github.com/samuel5qqq/-Image-Processing/blob/master/Sample%20Test/heout1.jpg" width="200"/>
+</p>
+
+Histogram Equalization by specified window(0.6, 0.6), (0.7, 0.7)
+<p align="Left">
+  <img src="https://github.com/samuel5qqq/-Image-Processing/blob/master/Sample%20Test/heout2.jpg" width="200"/>
+</p>
 
 ## Authors
 
