@@ -7,6 +7,14 @@ Adjust luminance using linear scaling and histogram equalization.
 Environment: python3
 Install Package: pip install opencv-python
 
+## Running the Program
+
+Foramt of the execution: 
+- linear scaling: python linearscaling.py w1 h1 w2 h2 {Input Image} {Output Image}
+- histogram equalization: python histequal.py w1 h1 w2 h2 {Input Image} {Output Image}
+Note: The window is specified in terms of the normalized coordinates w1 h1 w2 h2, where the window
+upper left point is (w1,h1), and its lower right point is (w2,h2).
+
 ## Program description
 1. Linear Scaling Method:
 - First find the min L and max L at the specified window(H1, W1) to (H2, W2).
@@ -27,16 +35,8 @@ Finally transfer back to RGB color space.
 - Since we apply linear scaling to L, the RGB value transfer from XYZ might out of the [0, 1] range.
 Out of range values are clipped. 
 
-
-
-## Running the Program
-
-Foramt of the execution: 
-- linear scaling: python linearscaling.py w1 h1 w2 h2 {Input Image} {Output Image}
-- histogram equalization: python histequal.py w1 h1 w2 h2 {Input Image} {Output Image}
-Note: The window is specified in terms of the normalized coordinates w1 h1 w2 h2, where the window
-upper left point is (w1,h1), and its lower right point is (w2,h2).
-
+## Sample Test
+Input Image: ![alt text](https://raw.https://github.com/samuel5qqq/-Image-Processing/blob/master/Sample%20Test/fruits.jpg)
 
 
 ## Authors
